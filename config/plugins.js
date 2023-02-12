@@ -12,4 +12,19 @@ module.exports = {
       },
     },
   },
+  upload: {
+    config: {
+      provider: "cloudinary",
+      providerOptions: {
+        cloud_name: "dbjjalcbm",
+        api_key: "973245518183435",
+        api_secret: "beX5qWqZsyUj83YCXDN3XOiTv34",
+      },
+      actionOptions: {
+        upload: {},
+        uploadStream: {},
+        delete: {},
+      },
+    },
+  },
 };
